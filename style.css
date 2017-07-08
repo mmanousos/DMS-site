@@ -1,0 +1,349 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+h1, h2, h3, h4 {
+	font-family: oswald;
+}
+h1 {
+    color: #164E96; 
+    text-decoration: none;
+}
+a {
+    color: #3B6CAC; 
+    text-decoration: none;
+}
+a {
+	font-weight: 700;
+}	
+h2 {
+    color: #568981;
+    font-size: 25px;
+}
+h4 {
+	color: #568981;
+	font-family: oswald;
+	font-size: 20px;
+}
+p {
+    font-family: lato;
+    color: #8E8F92;
+}
+body {
+	background: black;
+	width: 1000px;
+	padding: 25px;
+}
+#logo img {
+	width: 125px;
+}
+#logo {
+	float: left;
+}	
+#head {
+	text-align: center;
+	height: 150px;
+	font-size: 40px;
+}
+#head p {
+	font-size: 18px;
+}	
+/* index */ 
+.boxtitle {
+	Line-height: 200%;
+}
+#fet {
+	height: 150px;
+}	
+#fet p { 
+ 	position: relative;
+	top: 60px;
+	font-size: 18px;
+} 	
+#fet img {
+	height: 100px;
+	float: left;
+	padding: 15px;
+}
+span {
+	font-weight: 700;
+}	
+#members {
+	width: 300px; 
+	margin: 40px;
+	border: #568981 2px solid;
+	padding: 20px;
+	float: left;
+	position: relative;
+	left: 75px;
+}
+#additional {
+	width: 300px;
+	margin: 40px;
+	border: #568981 2px solid;
+	padding: 20px;
+	float: left;
+	position: relative;
+	left: 75px;
+}
+#frthcell {
+	width: 300px;
+	margin: 40px;
+	border: #568981 2px solid;
+	padding: 20px;
+	float: left;
+	clear: both;
+	position: relative;
+	left: 75px;
+}
+#fthcell {
+	width: 300px;
+	margin: 40px;
+	border: #568981 2px solid;
+	padding: 20px;
+	float: left;
+	position: relative;
+	left: 75px;
+}
+#sxthcell {
+	width: 300px;
+	margin: 40px;
+	border: #568981 2px solid;
+	padding: 20px;
+	float: left;
+	position: relative;
+	left: 75px;
+}
+
+li {
+    font-family: lato;
+    text-align: 20px; 
+	line-height: 25px;
+}
+li img {
+	width: 20px;
+	margin-left: 5px;
+}	
+
+/* links page */
+#section-left {
+	width:300px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	margin-left:150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float:left;
+	padding:25px;
+}
+#section-center {
+	width:300px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	float:left;
+	padding: 25px;
+	margin: 20px; 
+}
+
+/* map */
+#map {
+	margin-left: 250px;
+}
+/* resource list */
+#resource-list {
+	width:375px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	margin-left: 350px;
+	margin-top: 20px;
+	padding: 25px;
+	line-height: 30px;
+}
+#rope-list {
+	width:375px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	margin-left: 350px;
+	margin-top: 20px;
+	padding: 25px;
+/*	float: left;
+	position: relative; */
+}	
+/*width: 300px;
+	margin: 40px;
+	border: #568981 2px solid;
+	padding: 20px;
+	float: left;
+	position: relative;
+	left: 75px;*/
+
+/*
+#section-center {
+	width:250px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	float:left;
+	padding: 25px;
+	margin: 20px; 
+}
+*/
+#resource-calendar {
+	width: 950px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	color: black;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 10px;
+	line-height: 30px;
+}
+
+/* Products Page */
+.section {
+	width:950px;
+	border: 1px solid #568981; 
+	font-family: lato;
+	color: #B9A66E;
+	margin-left: 50px;
+	margin: 20px;
+	padding: 10px;
+	line-height: 30px;
+	height: 150px;
+}	
+.media {
+	width: 20px;
+	margin-left: 5px;
+}
+.product-logos {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+
+/* Cell Structure */
+#cell-li {
+	color: #8E8F92;
+	margin-left: 20px;
+}
+
+/* Calendar  */
+.calendar-entry {
+	width: 950px;
+	border: 1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	margin-left: 50px;
+	margin: 20px;
+	padding: 10px;
+	line-height: 30px;
+	float: right;
+}
+
+#rclogo {
+	float: left;
+	margin-right: 10px;
+}
+}
+#rclogo img {
+	width: 30px;
+	height: 30px; 
+}
+
+/* Class offerings */ 
+.class-descriptions {
+	width:950px;
+	border:1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	margin-left:50px;
+	margin: 20px;
+	padding:10px;
+	line-height: 30px;
+}
+
+#ital {
+	font-style: italic;
+}			 
+#footer {
+	border-top: #568981 solid 2px;
+	width: 1000px;
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	position: relative; 
+	margin: 30px;
+}	
+
+/* mailchimp signup */
+#mc_embed_signup {
+	background: black;	
+	text-align: center; 
+	clear:left;
+}
+
+#mce-EMAIL {
+	font-family: lato
+}
+
+#mc_embed_signup_scroll {
+	font-family: lato;
+    color: #8E8F92;
+}
+#mc-embedded-subscribe {
+	font-family: lato
+}
+.clear {
+	color: #164E96; 
+}
