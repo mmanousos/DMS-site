@@ -48,6 +48,18 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
+
+
+/* colors */
+
+/*  
+h1 - blue         #164E96; 
+h2 - greenish     #568981;
+links - blue      #3B6CAC;
+
+*/
+
+
 h1, h2, h3, h4 {
 	font-family: oswald;
 }
