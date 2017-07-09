@@ -50,30 +50,161 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 
 
-/* colors */
+
+
+/* ----------------------------------------------- */
+/* Colors */
+/* ----------------------------------------------- */
 
 /*  
 h1 - blue         #164E96; 
 h2 - greenish     #568981;
+p - off white     #c6e0ef
 links - blue      #3B6CAC;
 
 */
 
 
-h1, h2, h3, h4 {
-	font-family: oswald;
+/* ----------------------------------------------- */
+/* Fonts */
+/* ----------------------------------------------- */
+
+/*  
+headers      Oswald 
+text         Lato
+
+*/
+
+
+/* ----------------------------------------------- */
+/* Basic Set up */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html {
+    background-color: #000;
+    color: #eff7fc;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ' ';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* Reuseable Components */
+/* ----------------------------------------------- */
+
+
+.row {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0px;
+}
+
+/* ----------------------------------------------- */
+/* Headings */
+/* ----------------------------------------------- */
+
+
+
+
+h1, 
+h2, 
+h3, 
+h4 {
+	font-family: oswald, Arial, sans-serif;
+}
+
 h1 {
     color: #164E96; 
     text-decoration: none;
+    font-size: 200%;
+
 }
+
 a {
     color: #3B6CAC; 
     text-decoration: none;
+    font-weight: 700;
 }
-a {
-	font-weight: 700;
-}	
+
+
+
+/* ----------------------------------------------- */
+/* Page Intro */
+/* ----------------------------------------------- */
+
+
+.page-intro {
+    border-bottom: 2px solid #568981;  
+
+}
+
+.page-img img {
+    width: 125px;
+    float: left;
+    margin: 20px;
+}
+
+.page-title {
+    float: left;
+    padding-top: 30px;
+    margin: 0 20% 0 20%;
+}
+
+
+/* ----------------------------------------------- */
+/* nav */
+/* ----------------------------------------------- */
+
+
+.nav {
+    float: left;
+    margin-left: 5%;
+}
+
+.nav li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 10px 0 10px 10px;
+    font-size: 80%;
+
+}
+
+.nav li a:link,
+.nav li a:visited {
+    transition: border-bottom 0.2s;   
+}
+
+.nav li a:hover,
+.nav li a:active {
+    border-bottom: 1px solid #3B6CAC;
+    
+}
+
+/* ~~~~ original CSS 
+
+
+
+/*
 h2 {
     color: #568981;
     font-size: 25px;
@@ -83,30 +214,24 @@ h4 {
 	font-family: oswald;
 	font-size: 20px;
 }
+
+*/
+
+/*
 p {
     font-family: lato;
     color: #8E8F92;
 }
-body {
-	background: black;
-	width: 1000px;
-	padding: 25px;
-}
-#logo img {
-	width: 125px;
-}
-#logo {
-	float: left;
-}	
-#head {
-	text-align: center;
-	height: 150px;
-	font-size: 40px;
-}
-#head p {
-	font-size: 18px;
-}	
+
+
+
+
+
+
+
+
 /* index */ 
+/*
 .boxtitle {
 	Line-height: 200%;
 }
@@ -183,7 +308,9 @@ li img {
 	margin-left: 5px;
 }	
 
+
 /* links page */
+/*
 #section-left {
 	width:300px;
 	border:1px solid #568981; 
@@ -206,10 +333,12 @@ li img {
 }
 
 /* map */
+/*
 #map {
 	margin-left: 250px;
 }
 /* resource list */
+/*
 #resource-list {
 	width:375px;
 	border:1px solid #568981; 
@@ -250,6 +379,8 @@ li img {
 	margin: 20px; 
 }
 */
+
+/*
 #resource-calendar {
 	width: 950px;
 	border:1px solid #568981; 
@@ -263,6 +394,8 @@ li img {
 }
 
 /* Products Page */
+
+/*
 .section {
 	width:950px;
 	border: 1px solid #568981; 
@@ -285,12 +418,14 @@ li img {
 }
 
 /* Cell Structure */
+/*
 #cell-li {
 	color: #8E8F92;
 	margin-left: 20px;
 }
 
 /* Calendar  */
+/*
 .calendar-entry {
 	width: 950px;
 	border: 1px solid #568981; 
@@ -314,6 +449,7 @@ li img {
 }
 
 /* Class offerings */ 
+/*
 .class-descriptions {
 	width:950px;
 	border:1px solid #568981; 
@@ -339,6 +475,7 @@ li img {
 }	
 
 /* mailchimp signup */
+/*
 #mc_embed_signup {
 	background: black;	
 	text-align: center; 
