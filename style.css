@@ -59,7 +59,8 @@ input, select { vertical-align: middle; }
 /*  
 h1 - blue         #164E96; 
 h2 - greenish     #568981;
-p - off white     #c6e0ef
+    off white     #c6e0ef;
+p - gray          #8E8F92;
 links - blue      #3B6CAC;
 
 */
@@ -88,12 +89,13 @@ text         Lato
 
 html {
     background-color: #000;
-    color: #eff7fc;
+    color: #8E8F92;
     font-family: 'Lato', Arial, sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
 
 .clearfix {zoom: 1}
 .clearfix:after {
@@ -115,7 +117,7 @@ html {
 }
 
 section {
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 /* ----------------------------------------------- */
@@ -144,11 +146,20 @@ h2 {
 }
 
 .subheader {
-    margin: 0 30% 0 30%;
+    text-align: center;
 }
 
-/*add pseduo classes for hover, etc.*/
-a {
+h4 {
+	color: #568981;
+	font-family: oswald;
+	font-size: 125%;
+}
+
+
+a:link,
+a:visited, 
+a:hover, 
+a:active {
     color: #3B6CAC; 
     text-decoration: none;
     font-weight: 700;
@@ -219,20 +230,26 @@ p {
 
 
 .intro p {
-    padding: 10px 10px 10px 5px;
+    padding: 0 10px 10px 5px;
 }
-
-.intro p:first-child {
-    padding-top: 20px;
-} 
 
 .intro p:last-child {
     padding-bottom: 20px;
 }
 
+.find-us p:first-child {
+    padding-top: 20px;
+}
+
+
 .find-us {
     padding-top: 30px;
 }
+
+.find-us p {
+    margin-bottom: 90px;
+}
+
 
 .fl-logo img {
     float: left;
@@ -246,30 +263,44 @@ p {
     padding-top: 10px;
 }
 
+/* ----------------------------------------------- */
+/* contact us */
+/* ----------------------------------------------- */
+
+.contact-us {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.btn:link,
+.btn:visited {
+    font-weight: 100;
+    border-radius: 200px;
+    text-decoration: none;
+    color: #c6e0ef;
+    margin: 20px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: #c6e0ef;
+    border: 1.5px solid #c6e0ef;
+    color: #3B6CAC;
+}
+
+.btn-full {
+    background-color: #3B6CAC;
+    border: 1.5px solid #3B6CAC;
+    padding: 7px 15px 10px 15px;
+} 
+
+
+
+
+
+
 /* ~~~~ original CSS 
-
-
-
-
-h4 {
-	color: #568981;
-	font-family: oswald;
-	font-size: 20px;
-}
-
-*/
-
-/*
-p {
-    font-family: lato;
-    color: #8E8F92;
-}
-
-
-
-
-
-
 
 
 /* index */ 
