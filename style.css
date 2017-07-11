@@ -55,27 +55,21 @@ input, select { vertical-align: middle; }
 /* ----------------------------------------------- */
 /* Colors */
 /* ----------------------------------------------- */
-
 /*  
+
 h1 - blue         #164E96; 
 h2 - greenish     #568981;
     off white     #c6e0ef;
 p - gray          #8E8F92;
 links - blue      #3B6CAC;
 
-*/
-
-
 /* ----------------------------------------------- */
 /* Fonts */
 /* ----------------------------------------------- */
+/*
 
-/*  
 headers      Oswald 
 text         Lato
-
-*/
-
 
 /* ----------------------------------------------- */
 /* Basic Set up */
@@ -110,7 +104,6 @@ html {
 /* Reuseable Components */
 /* ----------------------------------------------- */
 
-
 .row {
     max-width: 960px;
     margin: 0 auto;
@@ -120,7 +113,6 @@ section {
     padding: 10px 0px;
 }
 
-
 .col {
     padding: 0 10px;
 }
@@ -128,7 +120,6 @@ section {
 /* ----------------------------------------------- */
 /* Headings and text*/
 /* ----------------------------------------------- */
-
 
 h1, 
 h2, 
@@ -141,9 +132,7 @@ h1 {
     color: #164E96; 
     text-decoration: none;
     font-size: 200%;
-
 }
-
 
 h2 {
     color: #568981;
@@ -161,7 +150,6 @@ h4 {
 	font-size: 125%;
 }
 
-
 a:link,
 a:visited, 
 a:hover, 
@@ -176,11 +164,9 @@ p {
 }
 
 
-
 /* ----------------------------------------------- */
 /* Page Intro */
 /* ----------------------------------------------- */
-
 
 .page-intro {
     border-bottom: 2px solid #568981;  
@@ -198,11 +184,9 @@ p {
     margin: 0 20% 0 20%;
 }
 
-
 /* ----------------------------------------------- */
 /* nav */
 /* ----------------------------------------------- */
-
 
 .nav {
     float: left;
@@ -215,7 +199,6 @@ p {
     float: left;
     padding: 10px 0 10px 10px;
     font-size: 80%;
-
 }
 
 .nav li a:link,
@@ -225,14 +208,12 @@ p {
 
 .nav li a:hover,
 .nav li a:active {
-    border-bottom: 1px solid #3B6CAC;
-    
+    border-bottom: 1px solid #3B6CAC; 
 }
 
 /* ----------------------------------------------- */
 /* buttons */
 /* ----------------------------------------------- */
-
 
 .btn:link,
 .btn:visited {
@@ -257,6 +238,14 @@ p {
     padding: 7px 15px 10px 15px;
 } 
 
+/* ----------------------------------------------- */
+/* icons */
+/* ----------------------------------------------- */
+
+i {
+	width: 10px;
+	margin: 0 3px 0 5px;
+}	
 
 /* ----------------------------------------------- */
 /* page content */
@@ -327,21 +316,6 @@ p {
 
 /* ~~~~ original CSS 
 
-
-/* index */ 
-/*
-
-
-
-li {
-    font-family: lato;
-    text-align: 20px; 
-	line-height: 25px;
-}
-li img {
-	width: 20px;
-	margin-left: 5px;
-}	
 
 
 /* links page */
