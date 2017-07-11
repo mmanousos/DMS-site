@@ -120,6 +120,11 @@ section {
     padding: 10px 0px;
 }
 
+
+.col {
+    padding: 0 10px;
+}
+
 /* ----------------------------------------------- */
 /* Headings and text*/
 /* ----------------------------------------------- */
@@ -147,6 +152,7 @@ h2 {
 
 .subheader {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 h4 {
@@ -166,7 +172,7 @@ a:active {
 }
 
 p {
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 
@@ -256,13 +262,8 @@ p {
 /* page content */
 /* ----------------------------------------------- */
 
-
-.col {
-    padding: 0 10px;
-}
-
 .intro p {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .intro p:last-child {
@@ -304,70 +305,33 @@ p {
 /* member boxes */
 /* ----------------------------------------------- */
 
-/* .member-box {
-    margin-left: 20px;
+.member-box {
+    border: #568981 1px solid;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #164E96, #464d49);
 }
-*/ 
+
+.box-title {
+    padding-bottom: 10px;
+}
+
 .member-box li {
     list-style-type: none;
 }
+
+.member-box p,
+.member-box li:last-child {
+    padding-bottom: 5px;
+}
+
 
 /* ~~~~ original CSS 
 
 
 /* index */ 
 /*
-.boxtitle {
-	Line-height: 200%;
-}
 
-	
-#members {
-	width: 300px; 
-	margin: 40px;
-	border: #568981 2px solid;
-	padding: 20px;
-	float: left;
-	position: relative;
-	left: 75px;
-}
-#additional {
-	width: 300px;
-	margin: 40px;
-	border: #568981 2px solid;
-	padding: 20px;
-	float: left;
-	position: relative;
-	left: 75px;
-}
-#frthcell {
-	width: 300px;
-	margin: 40px;
-	border: #568981 2px solid;
-	padding: 20px;
-	float: left;
-	clear: both;
-	position: relative;
-	left: 75px;
-}
-#fthcell {
-	width: 300px;
-	margin: 40px;
-	border: #568981 2px solid;
-	padding: 20px;
-	float: left;
-	position: relative;
-	left: 75px;
-}
-#sxthcell {
-	width: 300px;
-	margin: 40px;
-	border: #568981 2px solid;
-	padding: 20px;
-	float: left;
-	position: relative;
-	left: 75px;
-}
+
 
 li {
     font-family: lato;
