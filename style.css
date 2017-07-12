@@ -253,6 +253,7 @@ i {
 
 .intro p {
     padding-bottom: 15px;
+    /*text-align: justify;*/
 }
 
 .intro p:last-child {
@@ -284,9 +285,24 @@ i {
 /* contact us */
 /* ----------------------------------------------- */
 
+/* still need to figure out how to center this section*/
 .contact-us {
-    text-align: center;
     padding-bottom: 50px;
+    display: block;
+    width: 100%;
+}
+
+.contact-box {
+    display: block;
+    float: left;
+}
+
+.contact-text {
+    padding-bottom: 2%;
+}
+
+.contact-btn {
+    margin-top: 8px;
 }
 
 
