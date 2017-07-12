@@ -247,6 +247,49 @@ i {
 	margin: 0 3px 0 5px;
 }	
 
+
+/* ----------------------------------------------- */
+/* footer */
+/* ----------------------------------------------- */
+
+
+footer {
+	border-top: #568981 solid 2px;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	position: relative; 
+	margin: 30px;
+}	
+
+.footer-text {
+    font-size: 80%;
+}
+
+/* mailchimp signup */
+
+#mc_embed_signup {
+	background: black;	
+	text-align: center; 
+	clear:left;
+}
+
+#mce-EMAIL {
+	font-family: lato
+}
+
+#mc_embed_signup_scroll {
+	font-family: lato;
+    color: #8E8F92;
+}
+#mc-embedded-subscribe {
+	font-family: lato
+}
+.clear {
+	color: #164E96; 
+}
+
+
 /* ----------------------------------------------- */
 /* page content */
 /* ----------------------------------------------- */
@@ -489,35 +532,3 @@ i {
 #ital {
 	font-style: italic;
 }			 
-#footer {
-	border-top: #568981 solid 2px;
-	width: 1000px;
-	clear: both;
-	padding: 5px;
-	text-align: center;
-	position: relative; 
-	margin: 30px;
-}	
-
-/* mailchimp signup */
-/*
-#mc_embed_signup {
-	background: black;	
-	text-align: center; 
-	clear:left;
-}
-
-#mce-EMAIL {
-	font-family: lato
-}
-
-#mc_embed_signup_scroll {
-	font-family: lato;
-    color: #8E8F92;
-}
-#mc-embedded-subscribe {
-	font-family: lato
-}
-.clear {
-	color: #164E96; 
-}
