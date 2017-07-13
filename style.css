@@ -254,13 +254,15 @@ i {
 
 
 footer {
-	border-top: #568981 solid 2px;
-	width: 100%;
 	padding: 5px;
 	text-align: center;
 	position: relative; 
 	margin: 30px;
 }	
+footer .row:first-child {
+    width: 100%;
+    border-top: #568981 solid 2px;
+}
 
 .footer-text {
     font-size: 80%;
@@ -331,13 +333,15 @@ footer {
 /* still need to figure out how to center this section*/
 .contact-us {
     padding-bottom: 50px;
-    display: block;
-    width: 100%;
+    /*display: block;*/
+    /*width: 100%;*/
+    text-align: center;
 }
 
 .contact-box {
     display: block;
     float: left;
+    text-align: center;
 }
 
 .contact-text {
