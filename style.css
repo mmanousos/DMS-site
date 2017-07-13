@@ -331,17 +331,20 @@ footer .row:first-child {
 /* ----------------------------------------------- */
 
 /* still need to figure out how to center this section*/
+
+.contact-section {
+    padding-bottom: 40px;
+}
+
 .contact-us {
-    padding-bottom: 50px;
-    /*display: block;*/
-    /*width: 100%;*/
-    text-align: center;
+    width: 100%;
+    margin-left: 22%;
+    /* not ideal but working temporary fix to center section*/
 }
 
 .contact-box {
     display: block;
     float: left;
-    text-align: center;
 }
 
 .contact-text {
