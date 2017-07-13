@@ -310,7 +310,7 @@ footer .row:first-child {
 
 .intro p {
     padding-bottom: 15px;
-    /*text-align: justify;*/
+    text-align: justify;
 }
 
 .intro p:last-child {
