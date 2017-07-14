@@ -397,18 +397,15 @@ footer .row:first-child {
 
 
 
-
-
-
 /* ----------------------------------------------- */
 /* member boxes */
 /* ----------------------------------------------- */
 
-.member-box {
+
+.members {
     border: #164E96 1px solid;
     border-radius: 5px;
     background: linear-gradient(to bottom, #164E96, #415485);
-    
 }
 
 .box-title {
