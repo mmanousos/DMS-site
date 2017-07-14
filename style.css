@@ -344,28 +344,60 @@ footer .row:first-child {
 
 /* still need to proper fix to center this section*/
 
+/* .page-intro {
+    border-bottom: 2px solid #568981;  
+    width: 100%;
+}
+
+.intro-box {
+    display: block; 
+    width: 100%;
+    float: left;
+}
+
+.page-img img {
+    display: block;
+    margin: 0 auto;
+    width: 125px;
+}
+
+.page-title {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+*/
+
+
 .contact-section {
     padding-bottom: 40px;
-}
-
-.contact-us {
     width: 100%;
-    margin-left: 22%;
-    /* not ideal but working temporary fix to center section*/
 }
 
-.contact-box {
-    display: block;
-    float: left;
+.inline-block-center {
+    text-align: center;    
+}
+
+.inline-block-center div {
+    display: inline-block;
 }
 
 .contact-text {
     padding-bottom: 2%;
 }
 
+.contact-text h4 {
+    text-align: center;
+}
+
 .contact-btn {
+    display: block; 
     margin-top: 8px;
 }
+
+
+
+
 
 
 /* ----------------------------------------------- */
