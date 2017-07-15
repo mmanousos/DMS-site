@@ -117,6 +117,15 @@ section {
     padding: 0 10px;
 }
 
+.inline-block-center {
+    text-align: center;    
+}
+
+.inline-block-center div {
+    display: inline-block;
+}
+
+
 /* ----------------------------------------------- */
 /* Headings and text*/
 /* ----------------------------------------------- */
@@ -191,20 +200,21 @@ p {
     padding-left: 10px;
 }
 
+
 /* ----------------------------------------------- */
 /* nav */
 /* ----------------------------------------------- */
 
 .nav {
     float: left;
-    margin: 0 5%;
+    margin: 0 10%;
 }
 
 .nav li {
     list-style-type: none;
     display: block;
     float: left;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 12px;
     font-size: 80%;
 }
 
@@ -216,11 +226,6 @@ p {
 .nav li a:hover,
 .nav li a:active {
     border-bottom: 1px solid #3B6CAC; 
-}
-
-footer .nav {
-    margin: 0 10%;
-    
 }
 
 /* ----------------------------------------------- */
@@ -309,7 +314,7 @@ footer .row:first-child {
 /* ----------------------------------------------- */
 
 .intro p {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     text-align: justify;
 }
 
@@ -317,69 +322,29 @@ footer .row:first-child {
     padding-bottom: 20px;
 }
 
-.find-us p:first-child {
-    padding-top: 20px;
-}
-
-.find-us {
-    padding-top: 30px;
-}
-
-.find-us p {
-    margin-bottom: 90px;
-}
-
-.fl-logo img {
+.find-us-logo img {
     float: left;
     width: 120px;
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 20px;
+    padding-top: 10px; 
+    margin-right: 5px;
+    /*margin-bottom: 10px;*/
 }
 
+.find-us-logo img:last-child {
+    border-radius: 50%;
+}
+
+.find-us-text {
+    padding: 30px 0;
+}
 
 /* ----------------------------------------------- */
 /* contact us */
 /* ----------------------------------------------- */
 
-/* still need to proper fix to center this section*/
-
-/* .page-intro {
-    border-bottom: 2px solid #568981;  
-    width: 100%;
-}
-
-.intro-box {
-    display: block; 
-    width: 100%;
-    float: left;
-}
-
-.page-img img {
-    display: block;
-    margin: 0 auto;
-    width: 125px;
-}
-
-.page-title {
-    margin-top: 30px;
-    padding-left: 10px;
-}
-
-*/
-
-
 .contact-section {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     width: 100%;
-}
-
-.inline-block-center {
-    text-align: center;    
-}
-
-.inline-block-center div {
-    display: inline-block;
 }
 
 .contact-text {
@@ -401,11 +366,10 @@ footer .row:first-child {
 /* member boxes */
 /* ----------------------------------------------- */
 
-
 .members {
     border: #164E96 1px solid;
     border-radius: 5px;
-    background: linear-gradient(to bottom, #164E96, #415485);
+    background: linear-gradient(to bottom, #0b2445, #415485);
 }
 
 .box-title {
