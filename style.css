@@ -90,6 +90,9 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*#mc-embedded-subscribe, #mce-EMAIL {
+font-family: lato;
+}
 
 .clearfix {zoom: 1}
 .clearfix:after {
@@ -296,29 +299,6 @@ footer .row:first-child {
     font-size: 80%;
 }
 
-/* mailchimp signup */
-
-#mc_embed_signup {
-	background: black;	
-	text-align: center; 
-	clear:left;
-}
-
-#mce-EMAIL {
-	font-family: lato
-}
-
-#mc_embed_signup_scroll {
-	font-family: lato;
-    color: #8E8F92;
-}
-#mc-embedded-subscribe {
-	font-family: lato
-}
-.clear {
-	color: #164E96; 
-}
-
 
 /* ----------------------------------------------- */
 /* page content */
@@ -450,6 +430,10 @@ footer .row:first-child {
 .calendar-text {
     width: 85%;
     padding-right: 10px;
+}
+
+.calendar-img {
+    align-content: center;
 }
 
 .calendar-img img {
