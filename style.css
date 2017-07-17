@@ -116,7 +116,7 @@ section {
 .col {
     padding: 0 10px;
 }
-
+ca
 .inline-block-center {
     text-align: center;    
 }
@@ -133,7 +133,8 @@ section {
 h1, 
 h2, 
 h3, 
-h4 {
+h4,
+h5 {
 	font-family: oswald, Arial, sans-serif;
 }
 
@@ -156,8 +157,12 @@ h2 {
 
 h4 {
 	color: #568981;
-	font-family: oswald;
 	font-size: 125%;
+}
+
+h5 {
+    color: #568981;
+	font-size: 105%;
 }
 
 a:link,
@@ -417,6 +422,39 @@ footer .row:first-child {
     padding-bottom: 10px;
 }
 
+/* ----------------------------------------------- */
+/* calendar boxes */
+/* ----------------------------------------------- */
+
+.calendar-entry {
+	border: 1px solid #568981; 
+	font-family: lato;
+	color: #8E8F92;
+	padding: 10px;
+	line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.subtext p {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.calendar-text,
+.calendar-img {
+    display: block;
+    float: left;
+}
+
+.calendar-text {
+    width: 85%;
+    padding-right: 10px;
+}
+
+.calendar-img img {
+    width: 120px;
+}
 
 /* ~~~~ original CSS 
 
