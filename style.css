@@ -344,6 +344,16 @@ footer .row:first-child {
     padding: 30px 0;
 }
 
+/* Classes */
+
+.class-header {
+    width: 75%;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
 
 /* ----------------------------------------------- */
 /* contact us */
@@ -406,13 +416,12 @@ footer .row:first-child {
 /* calendar boxes */
 /* ----------------------------------------------- */
 
-.calendar-entry {
+.calendar-entry, 
+.class-description {
 	border: 1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
 	padding: 10px;
 	line-height: 30px;
-    margin-bottom: 10px;
+    margin: 0 5% 2% 5%;
 }
 
 .subtext p {
@@ -453,7 +462,7 @@ footer .row:first-child {
     padding-bottom: 10px;
 }
 
-.cell-info  {
+.cell-info {
 	display: block;
 	margin: 1% 1% 1% 2%;
 }
