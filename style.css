@@ -416,11 +416,20 @@ footer .row:first-child {
 /* calendar boxes */
 /* ----------------------------------------------- */
 
-.calendar-entry, 
+.calendar-entry,
 .class-description {
 	border: 1px solid #568981; 
 	padding: 10px;
 	line-height: 30px;
+    
+}
+
+.calendar-entry {
+    margin-bottom: 10px;
+}
+
+
+.class-description {
     margin: 0 5% 2% 5%;
 }
 
