@@ -288,8 +288,8 @@ footer {
 	padding: 5px;
 	text-align: center;
 	position: relative; 
-	margin: 30px;
 }	
+
 footer .row:first-child {
     width: 100%;
     border-top: #568981 solid 2px;
