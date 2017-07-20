@@ -397,8 +397,12 @@ footer .row:first-child {
     margin: 0;
 }
 
-.contact-scetion {
+.contact-section {
     padding-top: 25px;
+}
+
+.contact-logo img {
+    padding-bottom: 10px;
 }
 
 
