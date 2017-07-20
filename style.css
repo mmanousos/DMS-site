@@ -209,6 +209,8 @@ p {
 }
 
 
+
+
 /* ----------------------------------------------- */
 /* nav */
 /* ----------------------------------------------- */
@@ -304,12 +306,17 @@ footer .row:first-child {
 /* page content */
 /* ----------------------------------------------- */
 
-.intro p {
+
+.content-intro {
+    margin: 0 1.5% 0 3%;
+}
+
+.content-intro-box p {
     padding-bottom: 10px;
     text-align: justify;
 }
 
-.intro p:last-child {
+.content-intro-box p:last-child {
     padding-bottom: 20px;
 }
 
@@ -418,17 +425,18 @@ iframe {
     padding-bottom: 10px;
 }
 
+.member {
+    padding-bottom: 20px;
+}
+
 .member-box li {
     list-style-type: none;
+    line-height: 1.4;
 }
 
 .member-box p,
 .member-box li:last-child {
     padding-bottom: 10px;
-}
-
-.row.member-box {
-    /*margin: 0 5% 3% 8%;*/
 }
 
 /* ----------------------------------------------- */
