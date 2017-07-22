@@ -269,7 +269,8 @@ p {
 /* icons */
 /* ----------------------------------------------- */
 
-.members img {
+.members img,
+.friends-box img {
 	width: 20px;
 	margin: 1px 0 0 5px;
     vertical-align: middle;
@@ -433,14 +434,20 @@ iframe {
     padding-bottom: 20px;
 }
 
-.member-box li {
+.member-box li, 
+.friends-box li {
     list-style-type: none;
     line-height: 1.4;
 }
 
 .member-box p,
-.member-box li:last-child {
+.member-box li:last-child, 
+.friends-box p {
     padding-bottom: 10px;
+}
+
+.friends-box:last-child {
+    padding-left: 15px;
 }
 
 /* ----------------------------------------------- */
@@ -454,9 +461,11 @@ iframe {
 
 
 .calendar-entry,
-.class-description {
+.class-description,
+.friends-box {
 	border: 1px solid #568981; 
     border-radius: 5px;
+    padding-bottom: 10px;
 }
     
 .calendar-entry,
@@ -498,6 +507,16 @@ iframe {
 .calendar-img img {
     width: 120px;
 }
+
+.events-logo img {
+    width: 75%;
+}
+
+.events-logo, 
+.friends-box p {
+    text-align: center;
+}
+
 
 /* ----------------------------------------------- */
 /* Resources page */
