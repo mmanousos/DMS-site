@@ -81,6 +81,22 @@
 	width: 32%; 
 }
 
+/*  RESIZE FONT AT 600-480 PIXELS */
+@media only screen and (max-width: 600px) {
+    .span-1-of-3 li {
+        font-size: 80%;
+    }
+}  
+
+
+/*  TWEAK MARGIN AT 480-465 PIXELS */
+@media only screen and (max-width: 480px) {
+    .find-us-text {
+        margin-top: 25px;
+    }
+}  
+
+
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -91,13 +107,22 @@
 	.span-2-of-3 {
 		width: 100%; 
 	}
-	.span-1-of-3 {
+    
+    .member {
+    padding-bottom: 0;
+}
+    
+    .span-1-of-3 {
 		width: 100%;
         margin-bottom: 20px;
 	}
     
     .span-1-of-3:last-child {
         margin-bottom: 10px;
+    }
+    
+    .span-1-of-3 li {
+        font-size: 100%;
     }
 }
 
