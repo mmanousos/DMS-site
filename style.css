@@ -270,7 +270,8 @@ p {
 /* ----------------------------------------------- */
 
 .members img,
-.friends-box img {
+.friends-box img,
+.product-text img {
 	width: 20px;
 	margin: 1px 0 0 5px;
     vertical-align: middle;
@@ -354,11 +355,6 @@ footer .row:first-child {
 
 /* Classes */
 
-.class-header {
-    width: 75%;
-    text-align: center;
-    padding-bottom: 20px;
-}
 
 .header {    
     font-style: italic;
@@ -454,7 +450,8 @@ iframe {
 /* calendar boxes */
 /* ----------------------------------------------- */
 
-.calendar-box {
+.calendar-box,
+.product-box {
     width: 95%;
     margin: 0 auto;
 }
@@ -462,19 +459,22 @@ iframe {
 
 .calendar-entry,
 .class-description,
-.friends-box {
+.friends-box, 
+.product {
 	border: 1px solid #568981; 
     border-radius: 5px;
     padding-bottom: 10px;
 }
     
 .calendar-entry,
-.class-description {
+.class-description,
+.product-text {
 	padding: 10px;
 	line-height: 30px;
 }
 
-.calendar-entry {
+.calendar-entry, 
+.product {
     margin-bottom: 10px;
 }
 
@@ -490,7 +490,9 @@ iframe {
 }
 
 .calendar-text,
-.calendar-img {
+.calendar-img,
+.product-img, 
+.product-text {
     display: block;
     float: left;
 }
@@ -500,12 +502,22 @@ iframe {
     padding-right: 10px;
 }
 
+.product-text {
+    width: 80%;
+    padding-left: 10px;
+}
+
 .calendar-img {
     align-content: center;
 }
 
-.calendar-img img {
+.calendar-img img{
     width: 120px;
+}
+
+.product-img img {
+    width: 175px;
+    padding: 15px 0 0 15px;
 }
 
 .events-logo img {
