@@ -215,12 +215,12 @@ p {
 /* nav */
 /* ----------------------------------------------- */
 
-.nav {
+nav {
     float: left;
     margin: 0 10%;
 }
 
-.nav li {
+nav li {
     list-style-type: none;
     display: block;
     float: left;
@@ -228,13 +228,17 @@ p {
     font-size: 80%;
 }
 
-.nav li a:link,
-.nav li a:visited {
+nav li:first-child {
+    padding-left: 0;
+}
+
+nav li a:link,
+nav li a:visited {
     transition: border-bottom 0.2s;   
 }
 
-.nav li a:hover,
-.nav li a:active {
+nav li a:hover,
+nav li a:active {
     border-bottom: 1px solid #3B6CAC; 
 }
 
@@ -294,7 +298,7 @@ footer {
 	position: relative; 
 }	
 
-footer .row:first-child {
+footer .row {
     width: 100%;
     border-top: #568981 solid 2px;
 }
