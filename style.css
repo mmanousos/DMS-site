@@ -328,7 +328,7 @@ footer .row:first-child {
 }
 
 .about-hb p {
-    padding-bottom: 20px;
+    padding: 0 10px 20px 10px; 
 }
 
 .about-hb p:last-child {
@@ -371,7 +371,7 @@ footer .row:first-child {
 /* (main page) */
 
 .contact-section {
-    padding-bottom: 30px;
+    padding-bottom: 20px auto 30px auto;
     width: 100%;
 }
 
@@ -392,10 +392,6 @@ footer .row:first-child {
 /* (hb page) */
 .contact-section .col {
     margin: 0;
-}
-
-.contact-section {
-    padding-top: 25px;
 }
 
 .contact-logo img {
