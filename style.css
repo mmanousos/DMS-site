@@ -56,21 +56,17 @@ input, select { vertical-align: middle; }
 /* Colors */
 /* ----------------------------------------------- */
 /*  
-
 h1 - blue         #164E96; 
 h2 - greenish     #568981;
     off white     #c6e0ef;
 p - gray          #8E8F92;
 links - blue      #3B6CAC;
-
 /* ----------------------------------------------- */
 /* Fonts */
 /* ----------------------------------------------- */
 /*
-
 headers      Oswald 
 text         Lato
-
 /* ----------------------------------------------- */
 /* Basic Set up */
 /* ----------------------------------------------- */
@@ -93,7 +89,6 @@ html {
 /*#mc-embedded-subscribe, #mce-EMAIL {
 font-family: lato;
 }
-
 .clearfix {zoom: 1}
 .clearfix:after {
     content: ' ';
@@ -102,7 +97,6 @@ font-family: lato;
     height: 0;
     visibility: hidden;
 }
-
 /* ----------------------------------------------- */
 /* Reuseable Components */
 /* ----------------------------------------------- */
@@ -228,10 +222,6 @@ nav li {
     font-size: 80%;
 }
 
-nav li:first-child {
-    padding-left: 0;
-}
-
 nav li a:link,
 nav li a:visited {
     transition: border-bottom 0.2s;   
@@ -295,13 +285,9 @@ nav li a:active {
 footer {
 	padding: 5px;
 	text-align: center;
-	position: relative; 
-}	
-
-footer .row {
-    width: 100%;
+    margin: 0 10%;
     border-top: #568981 solid 2px;
-}
+}	
 
 .footer-text {
     font-size: 80%;
@@ -571,163 +557,3 @@ iframe {
 	display: block;
 	margin: 1% 1% 1% 2%;
 }
-
-/* ~~~~ original CSS 
-
-
-
-/* links page */
-/*
-#section-left {
-	width:300px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	margin-left:150px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	float:left;
-	padding:25px;
-}
-#section-center {
-	width:300px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	float:left;
-	padding: 25px;
-	margin: 20px; 
-}
-
-/* map */
-/*
-#map {
-	margin-left: 250px;
-}
-/* resource list */
-/*
-#resource-list {
-	width:375px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	margin-left: 350px;
-	margin-top: 20px;
-	padding: 25px;
-	line-height: 30px;
-}
-#rope-list {
-	width:375px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	margin-left: 350px;
-	margin-top: 20px;
-	padding: 25px;
-/*	float: left;
-	position: relative; */
-}	
-/*width: 300px;
-	margin: 40px;
-	border: #568981 2px solid;
-	padding: 20px;
-	float: left;
-	position: relative;
-	left: 75px;*/
-
-/*
-#section-center {
-	width:250px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	float:left;
-	padding: 25px;
-	margin: 20px; 
-}
-*/
-
-/*
-#resource-calendar {
-	width: 950px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	color: black;
-	margin-left: 50px;
-	margin-top: 20px;
-	padding: 10px;
-	line-height: 30px;
-}
-
-/* Products Page */
-
-/*
-.section {
-	width:950px;
-	border: 1px solid #568981; 
-	font-family: lato;
-	color: #B9A66E;
-	margin-left: 50px;
-	margin: 20px;
-	padding: 10px;
-	line-height: 30px;
-	height: 150px;
-}	
-.media {
-	width: 20px;
-	margin-left: 5px;
-}
-.product-logos {
-	width: 150px;
-	float: left;
-	margin-right: 10px;
-}
-
-/* Cell Structure */
-/*
-#cell-li {
-	color: #8E8F92;
-	margin-left: 20px;
-}
-
-/* Calendar  */
-/*
-.calendar-entry {
-	width: 950px;
-	border: 1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	margin-left: 50px;
-	margin: 20px;
-	padding: 10px;
-	line-height: 30px;
-	float: right;
-}
-
-#rclogo {
-	float: left;
-	margin-right: 10px;
-}
-}
-#rclogo img {
-	width: 30px;
-	height: 30px; 
-}
-
-/* Class offerings */ 
-/*
-.class-descriptions {
-	width:950px;
-	border:1px solid #568981; 
-	font-family: lato;
-	color: #8E8F92;
-	margin-left:50px;
-	margin: 20px;
-	padding:10px;
-	line-height: 30px;
-}
-
-#ital {
-	font-style: italic;
-}			 
