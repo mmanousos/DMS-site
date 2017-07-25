@@ -209,8 +209,7 @@ p {
 /* nav */
 /* ----------------------------------------------- */
 
-nav {
-    float: left;
+nav .bottom-nav {
     margin: 0 10%;
 }
 
@@ -231,6 +230,17 @@ nav li a:hover,
 nav li a:active {
     border-bottom: 1px solid #3B6CAC; 
 }
+
+/*  CENTER NAV AT LESS THAN 935 PIXELS */
+/*
+@media only screen and (max-width: 935) {
+	nav li {
+		margin: 0 5%;
+	}
+}
+
+
+
 
 /* ----------------------------------------------- */
 /* buttons */
@@ -285,7 +295,7 @@ nav li a:active {
 footer {
 	padding: 5px;
 	text-align: center;
-    margin: 0 10%;
+    /*margin: 0;*/
     border-top: #568981 solid 2px;
 }	
 
