@@ -175,6 +175,11 @@ p {
     line-height: 1.5;
 }
 
+.header {    
+    font-style: italic;
+    text-align: center;
+    padding: 0 10px 30px 10px;
+}
 
 /* ----------------------------------------------- */
 /* Page Intro */
@@ -203,11 +208,10 @@ p {
 }
 
 
-
-
 /* ----------------------------------------------- */
 /* nav */
 /* ----------------------------------------------- */
+
 
 nav .bottom-nav {
     margin: 0 10%;
@@ -230,16 +234,6 @@ nav li a:hover,
 nav li a:active {
     border-bottom: 1px solid #3B6CAC; 
 }
-
-/*  CENTER NAV AT LESS THAN 935 PIXELS */
-/*
-@media only screen and (max-width: 935) {
-	nav li {
-		margin: 0 5%;
-	}
-}
-
-
 
 
 /* ----------------------------------------------- */
@@ -353,14 +347,6 @@ footer {
     padding: 30px 0;
 }
 
-/* Classes */
-
-
-.header {    
-    font-style: italic;
-    text-align: center;
-    padding-bottom: 30px;
-}
 
 
 
@@ -455,19 +441,28 @@ iframe {
 
 .calendar-entry,
 .class-description,
-.friends-box, 
-.product {
+.friends-box {
 	border: 1px solid #568981; 
     border-radius: 5px;
     padding-bottom: 10px;
 }
+
+.product {
+    border: 1px solid #568981; 
+    border-radius: 5px;
+}
     
 .calendar-entry,
-.class-description,
-.product-text {
+.class-description {
 	padding: 10px;
 	line-height: 30px;
 }
+
+.product-text {
+    line-height: 30px;
+    padding: 10px 0;
+}
+
 
 .calendar-entry, 
 .product {
@@ -500,7 +495,6 @@ iframe {
 
 .product-text {
     width: 80%;
-    padding-left: 10px;
 }
 
 .calendar-img {
@@ -511,9 +505,13 @@ iframe {
     width: 120px;
 }
 
+.col.span-1-of-4.product-img {
+    margin-right: 0;
+}
+
 .product-img img {
     width: 175px;
-    padding: 15px 0 0 15px;
+    padding: 15px 0 10px 0;
 }
 
 .events-logo img {
@@ -523,6 +521,44 @@ iframe {
 .events-logo, 
 .friends-box p {
     text-align: center;
+}
+
+/*  CENTER PRODUCT TEXT AT LESS THAN 900 PIXELS */
+
+@media only screen and (max-width: 900px) {
+   .product-img {
+        margin: 0 5%;
+    }
+
+    .product-img img {
+        width: 100%;
+    }
+    
+    .img-product {
+        margin: 0 2% 0 5%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .img-product {
+        margin: 0 5% 0 20%;
+        padding-bottom: 0;
+    }
+    
+    .product-img img {
+        width: 75%;
+        padding-bottom: 0;
+    }
+    
+    .text-product {
+        margin-left: 10px;    
+    }
+    
+    .product-text h4 {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
 }
 
 
