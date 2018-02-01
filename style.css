@@ -579,10 +579,16 @@ iframe {
 
 .resources-listing li {
     list-style-position: inside;
+    line-height: 1.5;
 }
 
-.resources-listing li:last-child {
+.last {
     padding-bottom: 10px;  
+}
+
+
+.resources-listing li ul li {
+    padding-left: 15px;
 }
 
 
