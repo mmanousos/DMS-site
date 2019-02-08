@@ -333,6 +333,11 @@ footer {
     font-style: italic;
 }
 
+.emphasis,
+.about-hb p:last-child {
+    font-style: italic;
+}
+
 /* Find Us */
 
 .find-us-logo img {
