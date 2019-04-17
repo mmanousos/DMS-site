@@ -615,6 +615,25 @@ iframe {
     padding-left: 15px;
 }
 
+.faq-row {
+  margin-left: 15px;
+}
+
+.faq-flashcards {
+  border: solid 1px #568981;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+.faq-flashcards img {
+  background-color: #568981;
+  width: 50%;
+  margin-bottom: 10px;
+}
 
 /* ----------------------------------------------- */
 /* Cells page */
