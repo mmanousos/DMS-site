@@ -72,18 +72,17 @@ text         Lato
 /* ----------------------------------------------- */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    background-color: #000;
-    color: #8E8F92;
-    font-family: 'Lato', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
+  background-color: #000;
+  color: #8E8F92;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 /*#mc-embedded-subscribe, #mce-EMAIL {
@@ -329,12 +328,12 @@ footer {
     padding: 0 10px 20px 10px;
 }
 
-.about-hb p:last-child {
+/* .about-hb p:last-child {
     font-style: italic;
-}
+} */
 
-.emphasis,
-.about-hb p:last-child {
+.emphasis
+/*, .about-hb p:last-child */{
     font-style: italic;
 }
 
@@ -362,7 +361,8 @@ footer {
 
 /* (main page) */
 .contact-section {
-    padding-bottom: 20px auto 30px auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     width: 100%;
 }
 
@@ -379,7 +379,6 @@ footer {
     display: block;
     margin-top: 8px;
 }
-
 
 /* (hb page) */
 .contact-section .col {
@@ -462,7 +461,6 @@ iframe {
     margin: 0 auto;
 }
 
-
 .calendar-entry,
 .class-description,
 .friends-box {
@@ -486,7 +484,6 @@ iframe {
     line-height: 30px;
     padding: 10px 0;
 }
-
 
 .calendar-entry,
 .product {
@@ -585,11 +582,9 @@ iframe {
 
 }
 
-
 /* ----------------------------------------------- */
 /* Resources page */
 /* ----------------------------------------------- */
-
 
 .resources-box {
     margin: 0 5% 0 8%;
@@ -656,7 +651,6 @@ iframe {
 /* ----------------------------------------------- */
 /* Links page */
 /* ----------------------------------------------- */
-
 
 .links-info {
   font-style: italic;
