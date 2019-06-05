@@ -186,6 +186,7 @@ p {
 
 .page-intro {
     border-bottom: 2px solid #568981;
+    margin-bottom: 10px;
     width: 100%;
 }
 
@@ -205,7 +206,6 @@ p {
     margin-top: 30px;
     padding-left: 10px;
 }
-
 
 /* ----------------------------------------------- */
 /* nav */
@@ -305,7 +305,6 @@ footer {
 /* page content */
 /* ----------------------------------------------- */
 
-
 .content-intro {
     margin: 0 1.5% 0 3%;
 }
@@ -328,12 +327,7 @@ footer {
     padding: 0 10px 20px 10px;
 }
 
-/* .about-hb p:last-child {
-    font-style: italic;
-} */
-
-.emphasis
-/*, .about-hb p:last-child */{
+.emphasis {
     font-style: italic;
 }
 
@@ -344,7 +338,6 @@ footer {
     width: 120px;
     padding-top: 10px;
     margin-right: 8px;
-    /*margin-bottom: 10px;*/
 }
 
 .find-us-logo img:last-child {
