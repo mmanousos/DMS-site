@@ -320,6 +320,10 @@ footer {
     margin-left: 5%;
 }
 
+.documents .inline-block-center {
+    padding: 0 5px 20px 5px;
+}
+
 .content-intro {
     margin: 0 1.5% 0 3%;
 }
