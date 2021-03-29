@@ -613,6 +613,11 @@ iframe {
     line-height: 1.5;
 }
 
+.resources-listing p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .last {
     padding-bottom: 10px;
 }
