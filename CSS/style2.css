@@ -253,7 +253,8 @@ footer {
   padding: 15px;
 }
 
-.members img {
+.members img, 
+.icon {
   width: 20px;
   margin: 1px 0 0 5px;
 }
@@ -271,27 +272,39 @@ footer {
   margin-left: -2rem;
 }
 
-.event-grid {
+.event-grid, 
+.product-grid {
   display: grid;
   grid-template-rows: 150px auto;
   grid-template-areas: "image" 
                         "text";
 }
 
-.event-grid div {
+.event-grid div,
+.product-text div {
   grid-area: text;
 }
 
-.calendar h3 {
+.event-grid h3 {
+  margin-top: .5rem;
   font-size: var(--h4);
-  text-align: left;
 }
 
-.calendar img {
+.event-grid img {
   width: 100px;
   grid-area: image;
   justify-self: center;
   align-self: center;
+}
+
+.product-image {
+  grid-area: image;
+  justify-self: center;
+  align-self: center;
+}
+
+.product-image img {
+  width: 100px;
 }
 
 .resources img {
@@ -375,18 +388,34 @@ footer {
     grid-area: nav;
   }
 
+  .event-grid, 
+  .product-grid {
+    grid-gap: 1rem;
+  }
+
   .event-grid {
     grid-template-rows: auto;
     grid-template-columns: 5fr 1fr;
     grid-template-areas: "text image";
   }
 
-  .event-grid div {
-    grid-area: text;
-    margin-right: 1rem;
+  .product-grid {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "image text";
   }
 
-  .calendar img {
+  .event-grid h3,
+  .product-grid h2 {
+    text-align: left;
+  }
+
+  .event-grid div {
+    grid-area: text;
+  }
+
+  .calendar img,
+  .product-image img {
     grid-area: image;
     width: 150px;
   }
