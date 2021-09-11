@@ -8,6 +8,8 @@
   --black: #000;
   --gray: #8E8F92;
   --pale-blue: #3B6CAC;
+  --not-black: #0b2445;
+  --medium-blue: #415485;
 
   /* intentions */
   --introColor: var(--blue);
@@ -21,16 +23,13 @@
   /* typography */
   --headerFont: 'Oswald', Arial, sans-serif;
   --bodyFont: 'Lato', Arial, sans-serif;
-  --baseFontSize: 65%;
+  --baseFontSize: 80%;
   --h1: 2.488em;
   --h2: 2.074em;
   --h3: 1.728em;
   --h4: 1.44em;
   --h5: 1.2em;
   --smallText: 0.833em;
-
-  /* TODO: make base text not quite so small on smallest mobile 
-  but with nav links still all showing in a single line */
 
   /* style */
   --border: solid 1px var(--borderColor);
@@ -40,11 +39,11 @@
   --curveMost: 25px;
 
   /* elevation */
-  /* these are all black - to get them to show up on a black background, convert 0 to 255 */
-  --level-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --level-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --level-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --level-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  --level-1: 0 2px 3px -2px rgba(255, 255, 255, 0.5), 0 1px 2px 1px rgba(255, 255, 255, 0.5);
+  --level-2: 0px 5px 7px -4px rgba(255, 255, 255, .5), 2px 2px 4px 2px rgba(255, 255, 255, 0.7);
+  --level-3: 0px 10px 13px -7px rgba(255, 255, 255,1), 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  /* --level-4: 0 20px 25px -5px rgba(255, 255, 255, 0.1), 0 10px 10px -5px rgba(255, 255, 255, 0.04); */
 
   /* positioning */
   --containerPadding: 2.5%;
@@ -112,7 +111,9 @@ a:active {
 }
 
 nav a:hover,
-nav a:active {
+nav a:active,
+p a:hover,
+p a:active {
   border-bottom: 1px solid var(--linkColor);
 }
 
@@ -156,6 +157,36 @@ footer {
   padding: 1rem var(--containerPadding);
 }
 
+.grid {
+  --gridCols: 2;
+  display: block;
+  grid-template-columns: repeat(var(--gridCols), 1fr);
+}
+
+.flex {
+  --justifyContent: space-between;
+  display: block;
+  justify-content: var(--justifyContent);
+}
+
+.outline {
+  border: var(--border);
+  border-radius: var(--curveLess);
+  padding: var(--containerPadding);
+  margin: 1rem 0;
+  text-align: center;
+  box-shadow: var(--level-1);
+}
+
+.outline *:first-child {
+  margin-top: .5rem;
+}
+
+.outline img {
+  max-width: 98%;
+  padding-bottom: .5rem;
+}
+
 .welcome-grid {
   display: flex;
   flex-direction: column;
@@ -174,7 +205,7 @@ footer {
 }
 
 .welcome-grid nav {
-  font-size: var(--h5);
+  font-size: var(--smallText);
   grid-area: nav;
 }
 
@@ -182,16 +213,43 @@ footer {
   margin-left: 5px;
 }
 
-.grid {
-  --gridCols: 2;
-  display: block;
-  grid-template-columns: repeat(var(--gridCols), 1fr);
+.overview img {
+  border-radius: 50%;
+  width: 120px;
 }
 
-.flex {
-  --justifyContent: space-between;
-  display: block;
-  justify-content: var(--justifyContent);
+.find-us {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.find-us p {
+  width: 15rem;
+  padding: 15px;
+}
+
+.members img {
+  width: 20px;
+  margin: 1px 0 0 5px;
+}
+
+.title {
+  font-size: var(--h5);
+}
+
+.member-box {
+  border: var(--border);
+  border-radius: var(--curveLess);
+  background: linear-gradient(to bottom, var(--not-black), var(--medium-blue));
+  margin: 1rem;
+  padding: 0 var(--containerPadding);
+}
+
+.member-box ul {
+  list-style-type: none;
+  margin-left: -2rem;
 }
 
 .login {
@@ -222,10 +280,13 @@ footer {
 
 .login a:active,
 .login a:hover {
-    background-color: var(--off-white);
-    border: 1.5px solid var(--off-white);
-    color: var(--introColor);
+  background-color: var(--off-white);
+  border: 1.5px solid var(--off-white);
+  color: var(--introColor);
+  box-shadow: var(--level-1);
 }
+
+/* media queries */
 
 @media only screen and (min-width: 500px) {
   :root {
@@ -268,6 +329,15 @@ footer {
 }  
 
 @media only screen and (min-width: 625px) {
+  :root {
+    --baseFontSize: 106.25%;
+  }
+
+  .overview-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .welcome-grid {
     grid-template-rows: 125px 25px;
   }
@@ -286,10 +356,6 @@ footer {
 }  
 
 @media only screen and (min-width: 750px) {
-  :root {
-    --baseFontSize: 112.5%;
-  }
-
   .welcome-grid a img {
     height: 150px;
   } 
