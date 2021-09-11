@@ -87,9 +87,15 @@ h1 {
   color: var(--introColor);
 }
 
-h2 {font-size: var(--h2);}
+h2 {
+  font-size: var(--h2);
+  margin-top: 1rem;
+}
 
-h3 {font-size: var(--h3);}
+h3 {
+  font-size: var(--h3);
+  margin-top: 1rem;
+}
 
 h4 {font-size: var(--h4);}
 
@@ -124,6 +130,7 @@ b {
 
 iframe {
   width: 100%;
+  border: none;
 }
 
 header {
@@ -169,6 +176,12 @@ footer {
   --justifyContent: space-between;
   display: block;
   justify-content: var(--justifyContent);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -285,6 +298,12 @@ footer {
   align-self: center;
 }
 
+.resources img {
+  background-color: var(--accentColor);
+  border-radius: var(--curveMore);
+  width: 120px;
+}
+
 .login {
   display: flex;
   justify-content: center;
@@ -328,6 +347,7 @@ footer {
 
   .grid {
     display: grid;
+    grid-gap: 1rem;
   }
 
   .flex {
@@ -373,6 +393,10 @@ footer {
 
   .calendar img {
     grid-area: image;
+    width: 150px;
+  }
+
+  .resources img {
     width: 150px;
   }
 }  
