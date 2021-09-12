@@ -1,2 +1,3 @@
 # DMS-site
-Redesign of the Devil Mask Society website
+
+Refreshed HTML and CSS for DMS site as of 9/10/21
