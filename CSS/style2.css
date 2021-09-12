@@ -197,7 +197,9 @@ footer nav {
 }
 
 .container h2,
-.container h3 {
+.container h3,
+.outline h2,
+.outline h3 {
   margin-top: 0;
 }
 
@@ -205,13 +207,9 @@ footer nav {
   border: var(--border);
   border-radius: var(--curveLess);
   padding: var(--containerPadding);
-  margin: 1rem 0;
+  margin: 1rem 0 3rem 0; 
   text-align: center;
   box-shadow: var(--level-2);
-}
-
-.outline *:first-child {
-  margin-top: .5rem;
 }
 
 .timeline img {
@@ -238,10 +236,7 @@ footer nav {
 .welcome-grid nav {
   font-size: var(--smallText);
   grid-area: nav;
-}
-
-.welcome-grid nav a + a {
-  margin-left: 5px;
+  
 }
 
 .overview img {
@@ -422,7 +417,7 @@ footer nav {
     grid-area: text;
   }
 
-  .calendar img,
+  .event-grid img,
   .product-image img {
     grid-area: image;
     width: 150px;
