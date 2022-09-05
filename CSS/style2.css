@@ -423,6 +423,10 @@ footer nav {
   .resources img {
     width: 150px;
   }
+
+  .narrow-sheet {
+    width: 70vw;
+  }
 }
 
 @media only screen and (min-width: 625px) {
@@ -451,6 +455,18 @@ footer nav {
   .welcome-grid nav {
     font-size: var(--baseFontSize);
   }
+
+  .doc {
+    width: 100%;
+  }
+
+  .wide-sheet {
+    width: 80vw;
+  }
+
+  .narrow-sheet {
+    width: 60vw;
+  }
 }
 
 @media only screen and (min-width: 750px) {
@@ -460,5 +476,13 @@ footer nav {
 
   .welcome-grid h1 {
     font-size: var(--h1);
+  }
+
+  .wide-sheet {
+    width: 70%;
+  }
+
+  .narrow-sheet {
+    width: 50%;
   }
 }
